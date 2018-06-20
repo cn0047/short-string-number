@@ -3,6 +3,10 @@ const assert = require('assert');
 const ssn = require('./../../src/shortStringNumber');
 
 describe('Test suite for: `shortStringNumber`.', () => {
+  describe('Invalid value:', () => {
+    it('1', () => assert.strictEqual(ssn(true), true));
+  });
+
   describe('<= 1e4:', () => {
     it('1', () => assert.strictEqual(ssn(1024), 1024));
     it('2', () => assert.strictEqual(ssn(8084), 8084));
@@ -21,5 +25,9 @@ describe('Test suite for: `shortStringNumber`.', () => {
     it('1', () => assert.strictEqual(ssn(1033183), '1.03m'));
     it('2', () => assert.strictEqual(ssn(1039183), '1.04m'));
     it('3', () => assert.strictEqual(ssn(22051000), '22.05m'));
+  });
+
+  describe('Way big number:', () => {
+    it('1', () => assert.strictEqual(ssn(1222333444555666), 1222333444555666));
   });
 });

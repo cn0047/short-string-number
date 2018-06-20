@@ -1,10 +1,10 @@
 {
   "name": "short-string-number",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Vladimir Kovpak <cn007b@gmail.com>",
   "homepage": "https://github.com/cn007b/short-string-number#readme",
-  "description": "",
+  "description": "Convert number into short string (like 41939 to 41.9k).",
   "main": "src/shortStringNumber.js",
   "scripts": {
     "test": "node_modules/mocha/bin/_mocha --recursive --reporter spec test/unit",
