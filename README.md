@@ -3,7 +3,7 @@ short-string-number
 
 [![CircleCI](https://circleci.com/gh/cn007b/short-string-number.svg?style=svg)](https://circleci.com/gh/cn007b/short-string-number)
 [![Maintainability](https://api.codeclimate.com/v1/badges/acb8351b4e4c5b91fea8/maintainability)](https://codeclimate.com/github/cn007b/short-string-number/maintainability)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc344c605a2740fe8e8257fc875e94ca)](https://www.codacy.com/app/cn007b/short-string-number)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2bc7fbf0446f48a289c2682e448725e4)](https://www.codacy.com/gh/cn007b/short-string-number/dashboard)
 [![Coverage Status](https://coveralls.io/repos/github/cn007b/short-string-number/badge.svg?branch=master)](https://coveralls.io/github/cn007b/short-string-number?branch=master)
 
 Convert number into short string.
