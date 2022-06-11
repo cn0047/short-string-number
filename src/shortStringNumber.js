@@ -13,10 +13,10 @@ function shortStringNumber(n) {
     return n;
   }
   if (n <= 1e6) {
-    return (n / 1e3).toFixed(1) + 'K';
+    return (n / 1e3).toFixed(1) + 'k';
   }
   if (n <= 1e9) {
-    return (n / 1e6).toFixed(2) + 'M';
+    return (n / 1e6).toFixed(2) + 'm';
   }
 
   return n;
