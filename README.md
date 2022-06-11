@@ -1,10 +1,13 @@
 short-string-number
 -
 
+[![NPM](https://nodei.co/npm/short-string-number?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/short-string-number/)
+
 [![CircleCI](https://circleci.com/gh/cn007b/short-string-number.svg?style=svg)](https://circleci.com/gh/cn007b/short-string-number)
 [![Maintainability](https://api.codeclimate.com/v1/badges/acb8351b4e4c5b91fea8/maintainability)](https://codeclimate.com/github/cn007b/short-string-number/maintainability)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2bc7fbf0446f48a289c2682e448725e4)](https://www.codacy.com/gh/cn007b/short-string-number/dashboard)
 [![Coverage Status](https://coveralls.io/repos/github/cn007b/short-string-number/badge.svg?branch=master)](https://coveralls.io/github/cn007b/short-string-number?branch=master)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
 Convert number into short string.
 
